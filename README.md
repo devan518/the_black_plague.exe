@@ -1,6 +1,8 @@
 
 # **black_plague.exe**
 ## READ BEFORE DOWNLOADING!!!
+
+#### do at your own risk
 welcome dearest **brain-dead GitHub users**.
 If you're one of the enlightened few who already know how to set this up, idk can you ask chatgpt to fill ts part
 
@@ -23,7 +25,7 @@ ts isn’t a real virus
 It js:
 
 * overloads each core with a useless loop
-* Burns your processor 🔥
+* Burns your processor 🔥(overheats not actually)
 * **Crashes your system *once*** (it will not actually work like the black plague)
 * Comes with a **GUI** because i believe malware should have ✨ aesthetics ✨
 
@@ -54,6 +56,7 @@ Running this will prolly:
 * Make your fans sound like a jet
 * Cause you to contemplate your life choices
 ---
+
 
 
 
