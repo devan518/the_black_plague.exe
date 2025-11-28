@@ -1,8 +1,10 @@
 
-# **black_plague.exe**
-## READ BEFORE DOWNLOADING!!!
+# DO AT YOUR OWN RISK
+## read terms and conditions before activating virus after downloading, and no downloading it would not activate immediatally. 
+###### When you open the file and run, it will have 2 confirm buttons, the last one will run it
 
-#### do at your own risk
+### **black_plague.exe**
+## READ BEFORE DOWNLOADING!!!
 welcome dearest **brain-dead GitHub users**.
 If you're one of the enlightened few who already know how to set this up, idk can you ask chatgpt to fill ts part
 
@@ -56,6 +58,7 @@ Running this will prolly:
 * Make your fans sound like a jet
 * Cause you to contemplate your life choices
 ---
+
 
 
 
