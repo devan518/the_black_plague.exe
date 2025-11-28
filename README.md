@@ -1,6 +1,6 @@
 
 # **black_plague.exe**
-
+## READ BEFORE DOWNLOADING!!!
 welcome dearest **brain-dead GitHub users**.
 If you're one of the enlightened few who already know how to set this up, idk can you ask chatgpt to fill ts part
 
@@ -54,6 +54,7 @@ Running this will prolly:
 * Make your fans sound like a jet
 * Cause you to contemplate your life choices
 ---
+
 
 
 
