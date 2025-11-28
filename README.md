@@ -4,9 +4,9 @@
 welcome dearest **brain-dead GitHub users**.
 If you're one of the enlightened few who already know how to set this up, idk can you ask chatgpt to fill ts part
 
-If not?
+## If not? then read
 `instructions.txt`
-===========================================================================================
+
 
 ## What This "Virus" Actually Does
 
@@ -21,14 +21,13 @@ It js:
 
 So yeah, **very experimental, very silly, very fun**.
 
-===========================================================================================
 
 ## Features
 
 * ## *smegsy* CPU overload
 * super cool Tkinter GUI wowowowow
 * engineered for people who like ## devan
-===========================================================================================
+
 
 ## Running It
 
@@ -37,7 +36,6 @@ If you don’t know what you're doing:
 If you *do* know what you're doing:
 idk bro
 
----
 
 ## Final Warning
 
@@ -48,5 +46,6 @@ Running this will prolly:
 * Make your fans sound like a jet
 * Cause you to contemplate your life choices
 ---
+
 
 
