@@ -1,0 +1,6 @@
+build/* linguist-vendored
+dist/* linguist-vendored
+*.pyc linguist-generated
+*.toc linguist-generated
+*.zip linguist-generated
+*.pkg linguist-generated
