@@ -7,36 +7,6 @@ import tkinter as tk
 from tkinter import ttk, messagebox
 
 def receive_the_plague():
-    def stress_task(is_cpu_intensive):
-        if is_cpu_intensive:
-            i = 0
-            while True: i = i * i + 1 if i < 1e18 else 0.5
-        else:
-            hog = []
-            try:
-                chunk = 'X' * 32000 * 1024 * 1024  #i put a large number bc why not
-                while True: hog.append(chunk); time.sleep(0.001)
-            except MemoryError:
-                while True: time.sleep(1) # hold the memory after hitting the max limit
-
-    def overload_system(duration):
-        processes = []
-        #spread to each cpu core
-        for i in range(os.cpu_count() or 16):
-            p = multiprocessing.Process(target=stress_task, args=(True,), daemon=True)
-            p.start(); processes.append(p)
-        #add memory hogging processes
-        for i in range(4):
-            p = multiprocessing.Process(target=stress_task, args=(False,), daemon=True)
-            p.start(); processes.append(p)
-        #kill processes
-        time.sleep(duration)
-        for p in processes:
-            if p.is_alive(): p.terminate(); p.join(0.1)
-
-
-    overload_system(30)
-    #spam windows of blackplague
     def spawn_window(img):
         win = tk.Toplevel()
         win.attributes("-fullscreen", True)
