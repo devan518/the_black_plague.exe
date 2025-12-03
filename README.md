@@ -31,8 +31,7 @@ It js:
 * **Crashes your system *once*** (it will not actually work like the black plague)
 * Comes with a **GUI** because i believe malware should have ✨ aesthetics ✨
 
-So yeah, **very experimental, very silly, very fun**.
-
+**very funni hehe**.
 
 ## Features
 
@@ -45,7 +44,7 @@ So yeah, **very experimental, very silly, very fun**.
 
 If you don’t know what you're doing:
 **Read `instructions.txt`**
-If you *do* know what you're doing:
+If you **do** know what you're doing:
 idk bro
 
 
@@ -58,6 +57,7 @@ Running this will prolly:
 * Make your fans sound like a jet
 * Cause you to contemplate your life choices
 ---
+
 
 
 
