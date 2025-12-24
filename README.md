@@ -28,18 +28,13 @@ ts isn’t a real virus
 It js:
 
 * overloads each core with a useless loop
-* Burns your processor 🔥(overheats not actually)
 * **Crashes your system *once*** (it will not actually work like the black plague)
-* Comes with a **GUI** because i believe malware should have ✨ aesthetics ✨
+* Comes with a **GUI** too
 
 **very funni hehe**.
 
 ## Features
-
-* ## *smegsy* CPU overload
 * super cool Tkinter GUI wowowowow
-* engineered for people who are super cool
-
 
 ## Running It
 
@@ -58,6 +53,7 @@ Running this will prolly:
 * Make your fans sound like a jet
 * Cause you to contemplate your life choices
 ---
+
 
 
 
